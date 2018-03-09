@@ -10,7 +10,7 @@ An open-source crypto currency exchange
 ### Introduction 
 Welcome to the most advanced peatio release available. Includes various security and UI fixes (more to come).
 
-Specs:
+Specs (with Ubuntu 16.04 LTS):
 ======================================
 • Runs, but below minimum specs: 80GB, 2.20GHz, 2GB RAM
 
@@ -29,9 +29,9 @@ Specs:
 
 • Multi Server Support https://github.com/scatterp/peatio/blob/master/MultiServerReadme.md
 
-• Installer with minimal steps [![RELEASE](https://github.com/scatterp/peatio/blob/master/install1.sh)]
-wget https://raw.githubusercontent.com/scatterp/peatio/master/install1.sh
+• Installer with minimal steps [![RELEASE](https://github.com/78bash/cedarex/blob/master/install1.sh)]
 
+$ wget https://github.com/78bash/cedarex/blob/master/install1.sh
 $ source install1.sh 
 
 NOTE: it is critical you launch this with "SOURCE" not "SH", not "BASH" etc...
