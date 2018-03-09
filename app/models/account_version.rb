@@ -49,7 +49,7 @@ class AccountVersion < ActiveRecord::Base
     values       = ActiveRecord::Base.send :sanitize_sql_array, values_array
 
     select = Account.unscoped.select(values).where(id: account_id, balance: balance, locked: locked).to_sql
-    stmt   = "INSERT INTO account_versions (#{attrs.keys.join(',')}) #{select}"
+    stmt   = "INSERT INTO account_versions (#{attrs.keys.join(',')}) #{connection.quote[:select]}"
 
     connection.insert(stmt).tap do |id|
       if id == 0
