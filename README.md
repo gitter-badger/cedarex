@@ -1,5 +1,7 @@
 SPECS:
 =====================================
+
+[![Join the chat at https://gitter.im/cedarex/Lobby](https://badges.gitter.im/cedarex/Lobby.svg)](https://gitter.im/cedarex/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 •Runs but below minimum specs: 80gb, 2.20ghz, 2gb ram
 
 •Recomended specs: 300gb SSD, 4x 2.20 ghz and 12 gb ram
