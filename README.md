@@ -10,8 +10,8 @@ An open-source crypto currency exchange
 ### Introduction 
 Welcome to the most advanced peatio release available. Includes various security and UI fixes (more to come).
 
-Specs (with Ubuntu 16.04 LTS):
-======================================
+### Specs (with Ubuntu 16.04 LTS):
+
 • Runs, but below minimum specs: 80GB, 2.20GHz, 2GB RAM
 
 • Recomended specs: 300gb SSD, 4x 2.20GHz and 12GB RAM
