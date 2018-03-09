@@ -62,6 +62,8 @@ mkdir -p ~/peatio
 #git clone https://github.com/ctubio/Krypto-trading-bot.git ~/K
 git clone https://github.com/78bash/cedarex.git ~/peatio/current
 #git checkout testing01
+dialog --msgbox "generate your private seed key and save" 10 20
+sudo nano ~/peatio/current/config/initializers/secret_token.rb
 cd ~/peatio/current/
 pwd
 #sudo apt-get install -y ruby-bundler
