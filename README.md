@@ -1,7 +1,13 @@
-SPECS:
-=====================================
+[![build](https://travis-ci.org/78bash/cedarex.svg?branch=master?style=flat)](https://travis-ci.org/78bash/cedarex)
+[![security](https://hakiri.io/github/78bash/cedarex/master.svg?style=flat)](https://hakiri.io/github/78bash/cedarex/master)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/78bash/cedarex/issues)
+[![join slack](https://img.shields.io/badge/slack-join%20chat-brightgreen.svg)](https://join.slack.com/t/cedarex/shared_invite/enQtMzI3MTUzMTU5MzQ0LTUyNzZjZTVlMWNiYzNkYzI1YmFiYzI2MDQ3ZWQ2NWY4NzM4NjUwYTllNmIzNjkyNzcwYzJmYWNiYzFiOGI1YTg)
+[![Join the chat at https://gitter.im/78bash/cedarex](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+![Github All Releases](https://img.shields.io/github/downloads/78bash/cedarex/total.svg)
+[![HitCount](http://hits.dwyl.com/78bash/cedarex.svg?style=flat)](http://hits.dwyl.com/78bash/cedarex)
 
-[![Join the chat at https://gitter.im/cedarex/Lobby](https://badges.gitter.im/cedarex/Lobby.svg)](https://gitter.im/cedarex/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+SPECS:
+======
 •Runs but below minimum specs: 80gb, 2.20ghz, 2gb ram
 
 •Recomended specs: 300gb SSD, 4x 2.20 ghz and 12 gb ram
@@ -9,57 +15,64 @@ SPECS:
 •Ultra specs: 300gb SSD, 4x 2.20 ghz and 96 gb ram (run the os in ram its self)
 
 An open-source crypto currency exchange
-=====================================
+=======================================
 
 ### Introduction 
-   welcome to the most advanced peatio release available .also various UI and visual fixes have been added
-   (more to come) and a market making system which will provide a trading partner for your users.
-   please feel free to post issues and they will be handled rapidly.
+Welcome to the most advanced peatio release available. Includes various security and UI fixes (more to come).
+
+### Specs (with Ubuntu 16.04 LTS):
+
+• Runs, but below minimum specs: 80GB, 2.20GHz, 2GB RAM
+
+• Recomended specs: 300gb SSD, 4x 2.20GHz and 12GB RAM
+
+• Ultra specs: 300gb SSD, 4x 2.20 GHz and 96GB RAM (you can run the OS in RAM itself)
 
 ### Recently done / News
+• Undergoing fix of security issues.
 
-•Enhanced spanish support
+• Revert config/application.rb
 
-•fix security issues
+• Revert config/initializers/pusher.rb
 
-•revert config/application.rb
-•revert config/initializers/pusher.rb
-•revert doc/deploy-production-server.md
+• Revert doc/deploy-production-server.md
 
-•Multi Server Support https://github.com/scatterp/peatio/blob/master/MultiServerReadme.md
+• Multi Server Support https://github.com/scatterp/peatio/blob/master/MultiServerReadme.md
 
-•Installer with minimal steps [![RELEASE]()(https://github.com/scatterp/peatio/blob/master/install1.sh)]
-wget https://raw.githubusercontent.com/scatterp/peatio/master/install1.sh
-source install1.sh 
+• Merge in welcome page from coinxpro.com ![RELEASE](https://github.com/scatterp/peatio/tree/testcoinx)
 
-NOTE: it is critical you launch this with "SOURCE" not "SH" not "BASH" etc
-NOTE2: less than 4GB of ram you should disable the line that reads bitcoind or you wont have enough memory to launch the page
+• Installer with minimal steps ![RELEASE](https://github.com/78bash/cedarex/blob/master/install1.sh)
 
-•Merge in welcome page from coinxpro.com [![RELEASE]()(https://github.com/scatterp/peatio/https://github.com/scatterp/peatio/tree/testcoinx)]
+#### 1. Setup deploy user
+
+Create (if it doesn’t exist) deploy user, and assign it to the sudo group:
+
+    sudo adduser deploy
+    sudo usermod -a -G sudo deploy
+
+Re-login as deploy user
+
+#### 2. Run the script
+
+    wget https://github.com/78bash/cedarex/blob/master/install1.sh
+    source install1.sh
+
+NOTE: it is critical you launch this with "SOURCE" not "SH", not "BASH" etc...
+
+NOTE2: less than 4GB of RAM you should disable the line that reads bitcoind or you wont have enough memory to launch the page
 
 ### Todo (Coming soon in priority order)
+• All code refactor: *update to latest MySQL, Ruby and Gem versions, etc...*
 
-•payment processing
+• Payment processing.
 
-•Investigate PoxA or socket.io as a pusher replacement
+• Investigate PoxA or socket.io as a pusher replacement.
 
-•all code has refactored 
+• JRuby compatability and executes faster than previous versions at every step.
 
-•JRuby compatability and executes faster than previous versions at every step 
+• FIX financial information exchange API, added to bring the support of the entire financial eco system allowing for trading clients, banks etc to connect with the exchange.
 
-•FIX financial information exchange API  added to bring the support of the entire financial eco system allowing for trading clients banks etc to connect with the exchange
+### Contributions
+Contributions will go towards the continued maintenance and enhacement of Cedarex.
 
-
-README in English
-=====================================
-Peatio is a free and open-source crypto currency exchange implementation with the Rails framework and other cutting-edge technology.
-
-[README in ENGLISH](README-English.md)
-
-README en Español
-=======================================
-**En traduccion**
-
-Peatio es un software libre y open-source para la implementación de una Exchange de divisas
-
-[README en Español](README-Español.md)
+#### Bitcoin address: [323Ngox37VnPP1tsmFxP5xpmUktsGcaDjE](https://blockchain.info/address/323Ngox37VnPP1tsmFxP5xpmUktsGcaDjE)
