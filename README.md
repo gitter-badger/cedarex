@@ -16,7 +16,7 @@ Welcome to the most advanced peatio release available. Includes various security
 
 • Recomended specs: 300gb SSD, 4x 2.20GHz and 12GB RAM
 
-• Ultra specs: 300gb SSD, 4x 2.20 GHz and 96GB RAM (you can run the OS in RAM its self)
+• Ultra specs: 300gb SSD, 4x 2.20 GHz and 96GB RAM (you can run the OS in RAM itself)
 
 ### Recently done / News
 • Undergoing fix of security issues.
