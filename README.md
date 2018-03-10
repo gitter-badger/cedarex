@@ -52,7 +52,7 @@ NOTE: it is critical you launch this with "SOURCE" not "SH", not "BASH" etc...
 NOTE2: less than 4GB of RAM you should disable the line that reads bitcoind or you wont have enough memory to launch the page
 
 ### Todo (Coming soon in priority order)
-• All code refactor.
+• All code refactor: *update to latest MySQL, Ruby and Gem versions*
 
 • Payment processing.
 
