@@ -29,7 +29,7 @@ Welcome to the most advanced peatio release available. Includes various security
 
 • Multi Server Support https://github.com/scatterp/peatio/blob/master/MultiServerReadme.md
 
-• Merge in welcome page from coinxpro.com ![RELEASE](https://github.com/scatterp/peatio/https://github.com/scatterp/peatio/tree/testcoinx)
+• Merge in welcome page from coinxpro.com ![RELEASE](https://github.com/scatterp/peatio/tree/testcoinx)
 
 • Installer with minimal steps ![RELEASE](https://github.com/78bash/cedarex/blob/master/install1.sh)
 
