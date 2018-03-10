@@ -1,6 +1,6 @@
 [![travis build](https://travis-ci.org/78bash/cedarex.svg?branch=master?style=flat)]()
 [![hakiri security](https://hakiri.io/github/78bash/cedarex/master.svg?style=flat)]()
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/78bash/cedarex/issues)
 [![Join the chat at https://gitter.im/78bash/cedarex](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![HitCount](http://hits.dwyl.com/78bash/cedarex.svg?style=flat)](http://hits.dwyl.com/78bash/cedarex)
 
