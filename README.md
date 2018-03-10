@@ -65,4 +65,4 @@ NOTE2: less than 4GB of RAM you should disable the line that reads bitcoind or y
 ### Contributions
 Contributions will go towards the continued maintenance and enhacement of Cedarex.
 
-#### Bitcoin: 323Ngox37VnPP1tsmFxP5xpmUktsGcaDjE
+#### Bitcoin address: [323Ngox37VnPP1tsmFxP5xpmUktsGcaDjE](https://blockchain.info/address/323Ngox37VnPP1tsmFxP5xpmUktsGcaDjE)
